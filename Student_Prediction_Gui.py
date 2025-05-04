@@ -13,9 +13,8 @@ import streamlit as st
 import warnings
 warnings.filterwarnings('ignore')
 
-# Load and preprocess the dataset
-file_path = r"C:\Users\Administrator\Desktop\ml project\student\student-mat.csv"
-df = pd.read_csv(file_path, sep=';')
+# Load and preprocess the dataset using relative path
+df = pd.read_csv("student-mat.csv", sep=';')
 
 # Features to use (excluding school, including G1, G2)
 features = ['sex', 'age', 'address', 'famsize', 'Pstatus', 'Medu', 'Fedu', 'Mjob', 'Fjob',
