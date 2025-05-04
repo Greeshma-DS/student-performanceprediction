@@ -2,7 +2,7 @@
 # 🎓 Student Performance Prediction using  Hybrid Ensemble
 
 This project uses a dynamic weighted hybrid ensemble model combining **Random Forest**, **XGBoost**, and a **Neural Network** to predict student performance. The app provides a user-friendly interface using **Streamlit** for visualizing predictions, adjusting weights, and understanding feature importance.
-
+DEPLOYMENT LINK: https://student-performanceprediction.streamlit.app/
 
 ## 🚀 Features
 
